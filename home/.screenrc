@@ -1,0 +1,24 @@
+term xterm-256color
+
+# Отключаем приветствие
+startup_message off
+
+# Включаем utf8
+defutf8 on
+
+# Использовать визуальный сигнал (мигание экрана) вместо писка динамика
+vbell on
+
+# Размер буфера прокрутки
+defscrollback 1000
+
+# Активировать возможность прокрутки в xterm (и других эмуляторах терминала)
+termcapinfo xterm* ti@:te@
+
+# Волшебная строка
+
+# Строка состояния
+# для авто-названий табов в ~/.bashrc включить:
+# export PROMPT_COMMAND='echo -ne "\033k\033\0134"'
+shelltitle '$ |sh'
+hardstatus alwayslastline "%-w%{= BW}%50>%n %t%{-}%+w%<"

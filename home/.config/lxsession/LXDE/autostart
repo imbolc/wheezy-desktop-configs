@@ -1,0 +1,20 @@
+# переключение языков на caps
+setxkbmap -option grp:switch,grp:caps_toggle,grp_led:caps us,ru
+
+# корректировка скорости трекпоинта ThinkPad
+sudo sh -c 'echo -n 255 > /sys/devices/platform/i8042/serio1/speed'
+sudo sh -c 'echo -n 200 > /sys/devices/platform/i8042/serio1/sensitivity'
+
+# включение вертикального скроллинга на среднюю кнопку трекпоинта
+sudo sh -c 'xinput set-int-prop "TPPS/2 IBM TrackPoint" "Evdev Wheel Emulation" 8 1'
+sudo sh -c 'xinput set-int-prop "TPPS/2 IBM TrackPoint" "Evdev Wheel Emulation Button" 8 2'
+sudo sh -c 'xinput set-int-prop "TPPS/2 IBM TrackPoint" "Evdev Wheel Emulation Timeout" 8 200'
+
+lxterminal
+zenpad
+chromium
+keepassx
+#flush
+~/.dropbox-dist/dropbox &
+./gems/blog/server/app.py &
+cd ~/bin; ./btsync

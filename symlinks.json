@@ -1,0 +1,20 @@
+{
+    "home": {
+        "links": [
+            ".config/autostart",
+            ".config/lxpanel",
+            ".config/lxsession",
+            ".config/lxterminal",
+            ".config/mc",
+            ".config/ranger",
+            ".bash_aliases",
+            ".bashrc",
+            ".flush",
+            ".jslintrc",
+            ".profile",
+            ".screenrc",
+
+            "bin/btsync"
+        ]
+    }
+}

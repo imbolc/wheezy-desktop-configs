@@ -1,0 +1,40 @@
+open_with q
+open_with 
+cd
+tab_new ~/tmp
+search wei
+find flask
+find fla
+search flas
+find f/d
+ls
+mkdir tst
+set show_hidden True
+cd .config/ranger/
+vim 
+touch options.py
+set colorscheme snow
+set colorscheme default88
+set colorscheme texas
+set colorscheme jungle
+set colorscheme default
+cd tmp/
+edit 
+S
+shell du
+cd /home/imbolc/.config/ranger/
+cd /home/imbolc/tmp
+1?
+rename x
+shell ls
+shell ls|less
+mkdir python
+tab_new 
+cd /home/imbolc/archive/
+mkdir health
+delete
+mkdir Ментальные Ловушки
+
+du
+delete seriously? y
+q

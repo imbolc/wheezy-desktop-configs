@@ -1,0 +1,3 @@
+show_hidden=True
+collapse_preview=False
+dirname_in_tabs=True
