@@ -32,9 +32,9 @@ mkdir python
 tab_new 
 cd /home/imbolc/archive/
 mkdir health
-delete
 mkdir Ментальные Ловушки
-
 du
 delete seriously? y
 q
+delete
+
